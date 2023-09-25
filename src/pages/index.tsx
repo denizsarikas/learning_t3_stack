@@ -18,7 +18,6 @@ export default function Home() {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
         <div>
-          {/* <UserButton afterSignOutUrl="/" /> */}
           {!user.isSignedIn ? <SignInButton /> : <SignOutButton/>}
         </div>
         <div>
